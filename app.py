@@ -2,13 +2,13 @@ import streamlit as st
 
 st.set_page_config(page_title="AI Due Diligence Tool")
 
-st.title("💼 AI-Powered Private Equity Due Diligence Tool")
+st.title("AI-Powered Private Equity Due Diligence Tool")
 st.markdown("Enter a company name to generate a due diligence-style report.")
 
 company = st.text_input("Company Name", placeholder="e.g., Spotify")
 
 if st.button("Generate Report") and company:
-    st.subheader(f"📄 Due Diligence Report: {company}")
+    st.subheader(f"Due Diligence Report: {company}")
     st.markdown(f"""
     **1. Executive Summary**  
     {company} is a leading company in its industry with strong growth potential.  
